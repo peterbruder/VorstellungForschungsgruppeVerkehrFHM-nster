@@ -104,7 +104,7 @@ with st.expander("Fachgebiete"):
     with tab_19:
         st.header("Verkehrssimulation")
         # URL zur Videodatei
-        video_url = 'Lange_Nacht_der_Vertiefungsrichtungen_klein.mp4'
+        video_url = 'lange-nacht-der-vertiefungsrichtungen_klein.mp4'
         # Video in Streamlit einbinden
         st.video(video_url)
         st.info("Quelle: FH Münster, Thomas Schönauer im Master-Modul Makro- und Mikroskopische Verkehrsmodellierung (26.02.2020)")
