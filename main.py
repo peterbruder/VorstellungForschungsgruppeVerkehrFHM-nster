@@ -255,7 +255,6 @@ with st.expander("Das Team"):
             """,
             unsafe_allow_html=True,
         )
-        st.info("Foto: Anna Haas")
 
     with tab_2:
         st.subheader("Professoren:")
