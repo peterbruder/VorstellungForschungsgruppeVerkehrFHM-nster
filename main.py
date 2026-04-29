@@ -197,28 +197,32 @@ with st.expander("Projekte des Verkehrswesens I (4. Semester)"):
             st.info("Quelle: Autobahn AG (2021)")
 
 with st.expander("Exkursionen"):
-    st.markdown("Seit 2007 sind mehr als 50 Exkursionen durchgeführt worden!")
-    tab_14, tab_15, tab_16, tab_17, tab_18 = st.tabs(["2023 - Großbaustelle B51 – B481 Umgehungsstraße Münster", "2023 - Ruhrgebiet, Niederlande, Münsterland", "2022 - Asphaltmischanlage Oberhausen / BAB A31 ", "2022 - Stuttgart, Frankfurt, Würzburg, Leverkusen", "2022 - Intertraffic Amsterdam "]) 
+    st.markdown("Seit 2007 sind mehr als 55 Exkursionen durchgeführt worden!")
+    tab_14, tab_15, tab_16, tab_17, tab_18, tab_99 = st.tabs(["2025 - Hamburg, Bremen", "2024 - Hannover, Bremen, Fehmarnsund, Lübeck, A1", "2024 - Intertraffic Amsterdam", "2024 - Hannover, Rødby, Lübeck, Bremen, Seedorf", "2023 - Großbaustelle B51, B481 Umgehungsstraße Münster","2023 - Ruhrgebiet, Niederlande, Münsterland"]) 
 
     with tab_14:
-        st.header("2023 - Großbaustelle B51 – B481 Umgehungsstraße Münster")
+        st.header("2025 - Hamburg, Bremen")
         st.image("Exkursion_1.png", use_column_width=True)
 
     with tab_15:
-        st.header("2023 - Ruhrgebiet, Niederlande, Münsterland")
+        st.header("2024 - Hannover, Bremen, Fehmarnsund, Lübeck, A1")
         st.image("Exkursion_2.png", use_column_width=True)
 
     with tab_16:
-        st.header("2022 - Asphaltmischanlage Oberhausen / BAB A31")
-        st.image("Exkursion_3.png", use_column_width=True)
+        st.header("2024 - Intertraffic Amsterdam")
+        st.image("Exkusion_3.png", use_column_width=True)
 
     with tab_17:
-        st.header("2022 - Stuttgart, Frankfurt, Würzburg, Leverkusen")
+        st.header("2024 - Hannover, Rødby, Lübeck, Bremen, Seedorf")
         st.image("Exkursion_4.png", use_column_width=True)
 
     with tab_18:
-        st.header("Intertraffic Amsterdam 2022")
+        st.header("2023 - Großbaustelle B51, B481 Umgehungsstraße Münster")
         st.image("Exkursion_5.png", use_column_width=True)
+
+    with tab_99:
+        st.header("2023 - Ruhrgebiet, Niederlande, Münsterland")
+        st.image("Exkursion_6.png", use_column_width=True)
 
 with st.expander("Potenzielle Arbeitgeber"):
     file_path2 = 'Potenzielle Arbeitgeber.pdf'
