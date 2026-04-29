@@ -268,7 +268,7 @@ with st.expander("Das Team"):
         col2.write("<p align='center'>Prof. an der FH Münster seit März 2019</p>", unsafe_allow_html=True)
         col2.write("<p align='center'>Forschungsschwerpunkte: Konzeptionelle Verkehrsplanung, Straßenentwurf, Schienenverkehrswesen, nachhaltige Mobilität</p>", unsafe_allow_html=True)
 
-        col3.image("Hartz1.jpg", use_column_width=True)
+        col3.image("Hartz_1.png", use_column_width=True)
         col3.write("<p align='center'><b> Prof. Dr.-Ing. B. Hartz</b></p>", unsafe_allow_html=True)
         col3.write("<p align='center'>Prof. an der FH Münster seit März 2012</p>", unsafe_allow_html=True)
         col3.write("<p align='center'>Forschungsschwerpunkte: Verkehrstechnik, Verkehrsplanung, Verkehrssicherheit, Verkehr und Umwelt</p>", unsafe_allow_html=True)
