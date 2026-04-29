@@ -237,7 +237,7 @@ with st.expander("Das Team"):
     with tab_1:
         #Erstelle 2 Spalten
         st.subheader("Das Team:")
-        st.write("""Das Team v.l.n.r.: Hans-Hermann Weßelborg, Jeanette Klemmer, Leon Paskert, Antonia Bokern, Robin Kersten, Thessa Reiher, Jonas Wenkers, Nils Köster, Babett Hauke, Artem Savoiskyi""")
+        st.write("""Das Team v.l.n.r.: Hans-Hermann Weßelborg, Jeanette Klemmer, Leon Paskert, Antonia Bokern, Robin Kersten, Tessa Reiher, Jonas Wenkers, Nils Köster, Babett Hauke, Artem Savoiskyi""")
         # Bildpfad
         image_path = "Team2.jpg"
 
