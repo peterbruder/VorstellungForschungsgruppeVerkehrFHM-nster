@@ -263,11 +263,29 @@ with st.expander("Das Team"):
         col1.write("<p align='center'>Prof. an der FH Münster seit Oktober 2006</p>", unsafe_allow_html=True)
         col1.write("<p align='center'>Forschungsschwerpunkte: Straßenbautechnik, Straßenbetrieb, Straßenerhaltung</p>", unsafe_allow_html=True)
         
-        col2.image("Hartz.jpg", use_column_width=True)
+        col2.markdown("""
+        <div style="position: relative; text-align: center;">
+            <img src="Hartz.jpg" style="width: 100%; opacity: 0.4; filter: grayscale(100%);">
+            
+            <div style="
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: rgba(255,255,255,0.8);
+                padding: 10px 15px;
+                border-radius: 8px;
+                font-weight: bold;
+            ">
+                Stelle wird neu besetzt
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+        
         col2.write("<p align='center'><b> Prof. Dr.-Ing. B. Hartz</b></p>", unsafe_allow_html=True)
         col2.write("<p align='center'>Prof. an der FH Münster seit März 2012</p>", unsafe_allow_html=True)
         col2.write("<p align='center'>Forschungsschwerpunkte: Verkehrstechnik, Verkehrsplanung, Verkehrssicherheit, Verkehr und Umwelt</p>", unsafe_allow_html=True)
-        
+                
         col3.image("Klemmer.jpg", use_column_width=True)
         col3.write("<p align='center'><b> Prof. Dr.-Ing. J. Klemmer</b></p>", unsafe_allow_html=True)
         col3.write("<p align='center'>Prof. an der FH Münster seit März 2019</p>", unsafe_allow_html=True)
